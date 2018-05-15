@@ -22,6 +22,8 @@
 		55103E0A20AACC03003BCAB6 /* TestRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55103E0220AACBFE003BCAB6 /* TestRoutes.swift */; };
 		55103E1720AACF9D003BCAB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55103E1620AACF9D003BCAB6 /* Main.storyboard */; };
 		559D8ECD20AADFF10031314B /* NavigatorControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D8ECB20AADF600031314B /* NavigatorControllerMock.swift */; };
+		559D8ED020AB23070031314B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 559D8ECE20AB23060031314B /* .gitignore */; };
+		559D8ED120AB23070031314B /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 559D8ECF20AB23060031314B /* .travis.yml */; };
 		5839FC3285BC00D847BFDC66 /* Pods_Sailor_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD98EA94CD02255718A38906 /* Pods_Sailor_Tests.framework */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -56,6 +58,8 @@
 		55103E1620AACF9D003BCAB6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		55103E1820AAD5C0003BCAB6 /* Sailor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Sailor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		559D8ECB20AADF600031314B /* NavigatorControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorControllerMock.swift; sourceTree = "<group>"; };
+		559D8ECE20AB23060031314B /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		559D8ECF20AB23060031314B /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Sailor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sailor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				559D8ECE20AB23060031314B /* .gitignore */,
+				559D8ECF20AB23060031314B /* .travis.yml */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for Sailor */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -289,6 +295,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559D8ED120AB23070031314B /* .travis.yml in Resources */,
+				559D8ED020AB23070031314B /* .gitignore in Resources */,
 				55103E1720AACF9D003BCAB6 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
