@@ -25,7 +25,7 @@ Sailor is a navigaton manager. It provides subclasses of common navigation UI co
   s.homepage         = 'https://github.com/oscarvgg/Sailor'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'oscarvgg' => '' }
+  s.author           = { 'oscarvgg' => 'oscarvgg88@gmail.com' }
   s.source           = { :git => 'https://github.com/oscarvgg/Sailor.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/oscarvgg'
 
