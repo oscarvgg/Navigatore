@@ -22,7 +22,7 @@ pod 'Sailor'
 
 ## Author
 
-oscarvgg, gonzalezgreco@gmail.com
+oscarvgg, https://twitter.com/oscarvgg
 
 ## License
 
