@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		312166687E91976695AEC7CC /* Pods_Sailor_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C22CC8EBD5C2176BEBD7D86 /* Pods_Sailor_Example.framework */; };
+		55103DF720AACBDA003BCAB6 /* Modal11ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55103DEF20AACBD7003BCAB6 /* Modal11ViewController.swift */; };
+		55103DF820AACBDA003BCAB6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55103DF020AACBD7003BCAB6 /* SignInViewController.swift */; };
+		55103DF920AACBDA003BCAB6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55103DF120AACBD8003BCAB6 /* SignUpViewController.swift */; };
+		55103DFA20AACBDA003BCAB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55103DF220AACBD8003BCAB6 /* AppDelegate.swift */; };
+		55103DFB20AACBDA003BCAB6 /* Modal1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55103DF320AACBD8003BCAB6 /* Modal1ViewController.swift */; };
+		55103DFC20AACBDA003BCAB6 /* Tab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55103DF420AACBD9003BCAB6 /* Tab2ViewController.swift */; };
+		55103DFD20AACBDA003BCAB6 /* Tab1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55103DF520AACBD9003BCAB6 /* Tab1ViewController.swift */; };
+		55103DFE20AACBDA003BCAB6 /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55103DF620AACBD9003BCAB6 /* Routes.swift */; };
+		55103E0720AACC03003BCAB6 /* NavigatorControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55103DFF20AACBFE003BCAB6 /* NavigatorControllerSpec.swift */; };
+		55103E0820AACC03003BCAB6 /* TabBarNavigatorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55103E0120AACBFE003BCAB6 /* TabBarNavigatorSpec.swift */; };
+		55103E0920AACC03003BCAB6 /* TabRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55103E0020AACBFE003BCAB6 /* TabRoutes.swift */; };
+		55103E0A20AACC03003BCAB6 /* TestRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55103E0220AACBFE003BCAB6 /* TestRoutes.swift */; };
+		55103E1720AACF9D003BCAB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55103E1620AACF9D003BCAB6 /* Main.storyboard */; };
+		559D8ECD20AADFF10031314B /* NavigatorControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559D8ECB20AADF600031314B /* NavigatorControllerMock.swift */; };
 		5839FC3285BC00D847BFDC66 /* Pods_Sailor_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD98EA94CD02255718A38906 /* Pods_Sailor_Tests.framework */; };
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,21 +40,33 @@
 
 /* Begin PBXFileReference section */
 		018C3886073CFB0BD621AFE2 /* Pods-Sailor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sailor_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sailor_Example/Pods-Sailor_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3C12B54ED7071C749306CED6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3C12B54ED7071C749306CED6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		55103DEF20AACBD7003BCAB6 /* Modal11ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modal11ViewController.swift; sourceTree = "<group>"; };
+		55103DF020AACBD7003BCAB6 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		55103DF120AACBD8003BCAB6 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		55103DF220AACBD8003BCAB6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../Desktop/Sailor/Example/Sailor/AppDelegate.swift; sourceTree = "<group>"; };
+		55103DF320AACBD8003BCAB6 /* Modal1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modal1ViewController.swift; sourceTree = "<group>"; };
+		55103DF420AACBD9003BCAB6 /* Tab2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab2ViewController.swift; sourceTree = "<group>"; };
+		55103DF520AACBD9003BCAB6 /* Tab1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab1ViewController.swift; sourceTree = "<group>"; };
+		55103DF620AACBD9003BCAB6 /* Routes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		55103DFF20AACBFE003BCAB6 /* NavigatorControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigatorControllerSpec.swift; sourceTree = "<group>"; };
+		55103E0020AACBFE003BCAB6 /* TabRoutes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabRoutes.swift; sourceTree = "<group>"; };
+		55103E0120AACBFE003BCAB6 /* TabBarNavigatorSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarNavigatorSpec.swift; sourceTree = "<group>"; };
+		55103E0220AACBFE003BCAB6 /* TestRoutes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestRoutes.swift; sourceTree = "<group>"; };
+		55103E1620AACF9D003BCAB6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		55103E1820AAD5C0003BCAB6 /* Sailor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Sailor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		559D8ECB20AADF600031314B /* NavigatorControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorControllerMock.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Sailor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sailor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Sailor_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sailor_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6C22CC8EBD5C2176BEBD7D86 /* Pods_Sailor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sailor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		73A4CD3CC26CEF230AA10A48 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		73A4CD3CC26CEF230AA10A48 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		85ACD68BB2BBA6A79CF4633D /* Pods-Sailor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sailor_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sailor_Tests/Pods-Sailor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A3B5467FDE207EBF7815AC2E /* Sailor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Sailor.podspec; path = ../Sailor.podspec; sourceTree = "<group>"; };
+		A3B5467FDE207EBF7815AC2E /* Sailor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Sailor.podspec; path = ../Sailor.podspec; sourceTree = "<group>"; };
 		BD98EA94CD02255718A38906 /* Pods_Sailor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sailor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DE8BC3077E8D3F30EF8BC9 /* Pods-Sailor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sailor_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sailor_Example/Pods-Sailor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E4896E82DE4DB36B1CC7D096 /* Pods-Sailor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sailor_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sailor_Tests/Pods-Sailor_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		559D8ECA20AADF4C0031314B /* Fakes */ = {
+			isa = PBXGroup;
+			children = (
+				559D8ECB20AADF600031314B /* NavigatorControllerMock.swift */,
+			);
+			name = Fakes;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -93,10 +124,17 @@
 		607FACD21AFB9204008FA782 /* Example for Sailor */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				55103DF220AACBD8003BCAB6 /* AppDelegate.swift */,
+				55103DF320AACBD8003BCAB6 /* Modal1ViewController.swift */,
+				55103DEF20AACBD7003BCAB6 /* Modal11ViewController.swift */,
+				55103DF620AACBD9003BCAB6 /* Routes.swift */,
+				55103DF020AACBD7003BCAB6 /* SignInViewController.swift */,
+				55103DF120AACBD8003BCAB6 /* SignUpViewController.swift */,
+				55103DF520AACBD9003BCAB6 /* Tab1ViewController.swift */,
+				55103DF420AACBD9003BCAB6 /* Tab2ViewController.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				55103E1620AACF9D003BCAB6 /* Main.storyboard */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
@@ -115,7 +153,11 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				55103DFF20AACBFE003BCAB6 /* NavigatorControllerSpec.swift */,
+				55103E0120AACBFE003BCAB6 /* TabBarNavigatorSpec.swift */,
+				55103E0020AACBFE003BCAB6 /* TabRoutes.swift */,
+				55103E0220AACBFE003BCAB6 /* TestRoutes.swift */,
+				559D8ECA20AADF4C0031314B /* Fakes */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -153,6 +195,7 @@
 		FD49BAE7A6F334F43492E5E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				55103E1820AAD5C0003BCAB6 /* Sailor.framework */,
 				6C22CC8EBD5C2176BEBD7D86 /* Pods_Sailor_Example.framework */,
 				BD98EA94CD02255718A38906 /* Pods_Sailor_Tests.framework */,
 			);
@@ -170,7 +213,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				5CD4096337A8353A70C85C3D /* [CP] Embed Pods Frameworks */,
+				53C9BEA711F1B2A4411F7AA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,7 +251,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -246,7 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				55103E1720AACF9D003BCAB6 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -269,11 +312,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Sailor_Tests/Pods-Sailor_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Sailor/Sailor.framework",
 				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
 				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sailor.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
 			);
@@ -282,7 +327,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sailor_Tests/Pods-Sailor_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5CD4096337A8353A70C85C3D /* [CP] Embed Pods Frameworks */ = {
+		53C9BEA711F1B2A4411F7AA4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -343,8 +388,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55103DFA20AACBDA003BCAB6 /* AppDelegate.swift in Sources */,
+				55103DF820AACBDA003BCAB6 /* SignInViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				55103DFC20AACBDA003BCAB6 /* Tab2ViewController.swift in Sources */,
+				55103DFB20AACBDA003BCAB6 /* Modal1ViewController.swift in Sources */,
+				55103DFD20AACBDA003BCAB6 /* Tab1ViewController.swift in Sources */,
+				55103DFE20AACBDA003BCAB6 /* Routes.swift in Sources */,
+				55103DF720AACBDA003BCAB6 /* Modal11ViewController.swift in Sources */,
+				55103DF920AACBDA003BCAB6 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +404,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				55103E0820AACC03003BCAB6 /* TabBarNavigatorSpec.swift in Sources */,
+				55103E0A20AACC03003BCAB6 /* TestRoutes.swift in Sources */,
+				55103E0920AACC03003BCAB6 /* TabRoutes.swift in Sources */,
+				559D8ECD20AADFF10031314B /* NavigatorControllerMock.swift in Sources */,
+				55103E0720AACC03003BCAB6 /* NavigatorControllerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,14 +423,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -398,12 +446,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -451,12 +501,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

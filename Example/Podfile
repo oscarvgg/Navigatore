@@ -2,11 +2,12 @@ use_frameworks!
 
 target 'Sailor_Example' do
   pod 'Sailor', :path => '../'
+end
 
-  target 'Sailor_Tests' do
+target 'Sailor_Tests' do
     inherit! :search_paths
-
+    
     pod 'Quick', '~> 1.2.0'
     pod 'Nimble', '~> 7.0.2'
-  end
+    pod 'Sailor', :path => '../'
 end

@@ -1,0 +1,6 @@
+framework module Sailor {
+  umbrella header "Sailor-umbrella.h"
+
+  export *
+  module * { export * }
+}
