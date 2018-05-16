@@ -1,6 +1,7 @@
 # Sailor
 
 [![CI Status](https://img.shields.io/travis/oscarvgg/Sailor.svg?style=flat)](https://travis-ci.org/oscarvgg/Sailor)
+[![Code coverage status](https://img.shields.io/codecov/c/github/oscarvgg/Sailor.svg?style=flat)](https://codecov.io/gh/oscarvgg/Sailor)
 [![Version](https://img.shields.io/cocoapods/v/Sailor.svg?style=flat)](https://cocoapods.org/pods/Sailor)
 [![License](https://img.shields.io/cocoapods/l/Sailor.svg?style=flat)](https://cocoapods.org/pods/Sailor)
 [![Platform](https://img.shields.io/cocoapods/p/Sailor.svg?style=flat)](https://cocoapods.org/pods/Sailor)
